@@ -21,3 +21,4 @@ pip install requests pandas pydantic matplotlib seaborn flask jupyter
 python etl.py
 jupyter notebook eda.ipynb
 python app.py
+Live link: https://your-vercel-link.vercel.app
