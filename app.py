@@ -45,7 +45,8 @@ def aqi_level(a):
     if a <= 100: return "Moderate"
     if a <= 150: return "Unhealthy for sensitive groups"
     if a <= 200: return "Unhealthy"
-    return "Very unhealthy"
+    if a <= 300: return "Very unhealthy"
+    return "Hazardous"
 
 @app.route("/")
 def home():
