@@ -40,12 +40,18 @@ PAGE = """
 """
 
 def aqi_level(a):
-    if a is None: return "unknown"
-    if a <= 50: return "Good"
-    if a <= 100: return "Moderate"
-    if a <= 150: return "Unhealthy for sensitive groups"
-    if a <= 200: return "Unhealthy"
-    if a <= 300: return "Very unhealthy"
+    if a is None:
+        return "unknown"
+    if a <= 50:
+        return "Good"
+    if a <= 100:
+        return "Moderate"
+    if a <= 150:
+        return "Unhealthy for sensitive groups"
+    if a <= 200:
+        return "Unhealthy"
+    if a <= 300:
+        return "Very unhealthy"
     return "Hazardous"
 
 @app.route("/")
