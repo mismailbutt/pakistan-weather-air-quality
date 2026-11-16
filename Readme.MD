@@ -21,4 +21,4 @@ pip install requests pandas pydantic matplotlib seaborn flask jupyter
 python etl.py
 jupyter notebook eda.ipynb
 python app.py
-Live link: https://etl-eda-pipeline.vercel.app
+Live link: https://pakistan-weather-air-quality.vercel.app
